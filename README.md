@@ -12,7 +12,7 @@ Tested on RedHat 8
 ## File /etc/sudoers.d/icinga
 ```
 Defaults:icinga !requiretty
-icinga ALL=(ALL) NOPASSWD: /usr/lib64/nagios/plugins/check_vdo.py
+icinga ALL=(ALL) NOPASSWD: /usr/lib64/nagios/plugins/check_vdo_volume.py
 ```
 
 ## SELinux hints
