@@ -1,5 +1,6 @@
 # check_vdo
-Checks the health of the specified VDO volume
+Checks the health of the specified VDO volume.
+Returns useful metrics to be graphed if need be.
 
 Tested on RedHat 8
 
