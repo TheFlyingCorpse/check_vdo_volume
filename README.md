@@ -1,4 +1,4 @@
-# check_vdo
+# check_vdo_volume
 Checks the health of the specified VDO volume.
 Returns useful metrics to be graphed if need be.
 
@@ -34,7 +34,7 @@ object CheckCommand "disk-vdo" {
     import "plugin-check-command"
     command = [
         "/usr/bin/sudo",
-        "/usr/lib64/nagios/plugins/check_vdo.py"
+        "/usr/lib64/nagios/plugins/check_vdo_volume.py"
     ]
     timeout = 10s
     arguments += {
